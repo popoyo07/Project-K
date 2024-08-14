@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 38228a514ef5a8a4d8ed338ea4e03be7
+guid: da029bcec85c08c439c2e1a3d0dfaa11
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -71,7 +71,7 @@ ScriptedImporter:
     textureFormatSet: 0
     applyGammaDecoding: 0
   previousAsepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 0
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -83,7 +83,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   asepriteImporterSettings:
-    fileImportMode: 1
+    fileImportMode: 0
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638591901975341177
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,98 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: '#1 final-Recovered_Frame_0'
+  - name: buildings tiles
     originalName: 
-    pivot: {x: 0.6, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 157
-      width: 15
-      height: 42
-    spriteID: 8bf2449e29e6824488bd5d9f05f10723
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 157}
-  - name: '#1 final-Recovered_Frame_1'
-    originalName: 
-    pivot: {x: 0.6, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 207
-      width: 15
-      height: 42
-    spriteID: 6d5492b5e714f164d93d94e2133916f7
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 207}
-  - name: '#1 final-Recovered_Frame_2'
-    originalName: 
-    pivot: {x: 0.6, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 27
-      y: 4
-      width: 15
-      height: 42
-    spriteID: a514ce73491e6584c862cdc154457609
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 27, y: 4}
-  - name: '#1 final-Recovered_Frame_3'
-    originalName: 
-    pivot: {x: 0.6, y: 0}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 27
-      y: 54
-      width: 15
-      height: 42
-    spriteID: 8f8b7e0ed3420834c998b7a2e160a8a3
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 27, y: 54}
-  - name: '#1 final-Recovered_Frame_4'
-    originalName: 
-    pivot: {x: 0.6, y: 0}
+    pivot: {x: 0.6875, y: -1.1666666}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 15
-      height: 43
-    spriteID: 59f5bbfd6b182734cb672eeb1481be4c
+      width: 128
+      height: 96
+    spriteID: 7b1f2aa165e6a3e4ebc1451ad1bdda00
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -219,18 +139,19 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: '#1 final-Recovered_Frame_5'
+  spriteSheetImportData:
+  - name: buildings tiles_0
     originalName: 
-    pivot: {x: 0.6, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 55
-      width: 15
-      height: 43
-    spriteID: 89099f5b87183d441b38f661ac47e898
+      y: 68
+      width: 32
+      height: 32
+    spriteID: 1c96a7fe67e085b4f9f770df8e0c8d45
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -238,19 +159,79 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 55}
-  - name: '#1 final-Recovered_Frame_6'
+    uvTransform: {x: 0, y: 0}
+  - name: buildings tiles_1
     originalName: 
-    pivot: {x: 0.6, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 68
+      width: 32
+      height: 32
+    spriteID: ad10565bcf3d7214ea99221cfe9a26d4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: buildings tiles_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 68
+      width: 32
+      height: 32
+    spriteID: 53feae0d5ebb84f40a3025dd3d4d502d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: buildings tiles_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 68
+      width: 32
+      height: 32
+    spriteID: d54e0c90f3a8a204fb16f62be1077170
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: buildings tiles_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 106
-      width: 15
-      height: 43
-    spriteID: bbc239bbd5072244ca77bb40e7bce54f
+      y: 36
+      width: 32
+      height: 32
+    spriteID: 4949a4ac0e6eb5d46949b6c5bdd1f87c
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -258,19 +239,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 106}
-  - name: '#1 final-Recovered_Frame_7'
+    uvTransform: {x: 0, y: 0}
+  - name: buildings tiles_5
     originalName: 
-    pivot: {x: 0.6, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 27
-      y: 104
-      width: 15
-      height: 42
-    spriteID: 5e7aa7b20f908a8438cdf18323dd0438
+      x: 36
+      y: 36
+      width: 32
+      height: 32
+    spriteID: 5b488d07d9fc1b84db6b50ae17f32347
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -278,19 +259,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 27, y: 104}
-  - name: '#1 final-Recovered_Frame_8'
+    uvTransform: {x: 0, y: 0}
+  - name: buildings tiles_6
     originalName: 
-    pivot: {x: 0.6, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 27
-      y: 154
-      width: 15
-      height: 42
-    spriteID: 851390227a547824aaf6bc7eeedc2715
+      x: 68
+      y: 36
+      width: 32
+      height: 32
+    spriteID: 9358c7cd3fe9a114fa977acdeeebf84d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -298,19 +279,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 27, y: 154}
-  - name: '#1 final-Recovered_Frame_9'
+    uvTransform: {x: 0, y: 0}
+  - name: buildings tiles_7
     originalName: 
-    pivot: {x: 0.6, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 27
-      y: 204
-      width: 15
-      height: 42
-    spriteID: b5eb934bd033b3f4483be72ea767d98f
+      x: 100
+      y: 36
+      width: 32
+      height: 32
+    spriteID: aefa41f7090171740aef6b94cf0aba75
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -318,19 +299,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 27, y: 204}
-  - name: '#1 final-Recovered_Frame_10'
+    uvTransform: {x: 0, y: 0}
+  - name: buildings tiles_8
     originalName: 
-    pivot: {x: 0.6, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 50
+      x: 4
       y: 4
-      width: 15
-      height: 42
-    spriteID: de24b0fc5b28b8b4cb64bb35ff8c4426
+      width: 32
+      height: 32
+    spriteID: 0b2d0099444c60a43a47b85a774a6ecc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -338,19 +319,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 50, y: 4}
-  - name: '#1 final-Recovered_Frame_11'
+    uvTransform: {x: 0, y: 0}
+  - name: buildings tiles_9
     originalName: 
-    pivot: {x: 0.6, y: 0}
-    alignment: 9
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 50
-      y: 54
-      width: 15
-      height: 42
-    spriteID: efcac744f4f84224ea11712c41d26dae
+      x: 36
+      y: 4
+      width: 32
+      height: 32
+    spriteID: 3ce97a85cab8a8f4f8a195123c8e1882
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -358,115 +339,114 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 50, y: 54}
-  spriteSheetImportData: []
+    uvTransform: {x: 0, y: 0}
+  - name: buildings tiles_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 68
+      y: 4
+      width: 32
+      height: 32
+    spriteID: 87b686763c94c004d9e15d098937e1b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: buildings tiles_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 100
+      y: 4
+      width: 32
+      height: 32
+    spriteID: cd6fd1fa6c888004c8ca824fba180c95
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
   asepriteLayers:
   - layerIndex: 0
-    guid: 1155820854
-    name: '#1 final-Recovered'
+    guid: -762483990
+    name: buildings tiles
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: '#1 final-Recovered_Frame_0'
+    - name: buildings tiles
       frameIndex: 0
       cellRect:
-        x: 23
-        y: 0
-        width: 15
-        height: 42
-      spriteId: 8bf2449e29e6824488bd5d9f05f10723
-    - name: '#1 final-Recovered_Frame_1'
-      frameIndex: 1
-      cellRect:
-        x: 23
-        y: 0
-        width: 15
-        height: 42
-      spriteId: 6d5492b5e714f164d93d94e2133916f7
-    - name: '#1 final-Recovered_Frame_2'
-      frameIndex: 2
-      cellRect:
-        x: 23
-        y: 0
-        width: 15
-        height: 42
-      spriteId: a514ce73491e6584c862cdc154457609
-    - name: '#1 final-Recovered_Frame_3'
-      frameIndex: 3
-      cellRect:
-        x: 23
-        y: 0
-        width: 15
-        height: 42
-      spriteId: 8f8b7e0ed3420834c998b7a2e160a8a3
-    - name: '#1 final-Recovered_Frame_4'
-      frameIndex: 4
-      cellRect:
-        x: 23
-        y: 0
-        width: 15
-        height: 43
-      spriteId: 59f5bbfd6b182734cb672eeb1481be4c
-    - name: '#1 final-Recovered_Frame_5'
-      frameIndex: 5
-      cellRect:
-        x: 23
-        y: 0
-        width: 15
-        height: 43
-      spriteId: 89099f5b87183d441b38f661ac47e898
-    - name: '#1 final-Recovered_Frame_6'
-      frameIndex: 6
-      cellRect:
-        x: 23
-        y: 0
-        width: 15
-        height: 43
-      spriteId: bbc239bbd5072244ca77bb40e7bce54f
-    - name: '#1 final-Recovered_Frame_7'
-      frameIndex: 7
-      cellRect:
-        x: 23
-        y: 0
-        width: 15
-        height: 42
-      spriteId: 5e7aa7b20f908a8438cdf18323dd0438
-    - name: '#1 final-Recovered_Frame_8'
-      frameIndex: 8
-      cellRect:
-        x: 23
-        y: 0
-        width: 15
-        height: 42
-      spriteId: 851390227a547824aaf6bc7eeedc2715
-    - name: '#1 final-Recovered_Frame_9'
-      frameIndex: 9
-      cellRect:
-        x: 23
-        y: 0
-        width: 15
-        height: 42
-      spriteId: b5eb934bd033b3f4483be72ea767d98f
-    - name: '#1 final-Recovered_Frame_10'
-      frameIndex: 10
-      cellRect:
-        x: 23
-        y: 0
-        width: 15
-        height: 42
-      spriteId: de24b0fc5b28b8b4cb64bb35ff8c4426
-    - name: '#1 final-Recovered_Frame_11'
-      frameIndex: 11
-      cellRect:
-        x: 23
-        y: 0
-        width: 15
-        height: 42
-      spriteId: efcac744f4f84224ea11712c41d26dae
+        x: 32
+        y: 112
+        width: 128
+        height: 96
+      spriteId: 7b1f2aa165e6a3e4ebc1451ad1bdda00
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 64, y: 64}
+  canvasSize: {x: 240, y: 240}
