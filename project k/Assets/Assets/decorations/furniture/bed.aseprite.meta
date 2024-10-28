@@ -121,7 +121,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: bed
     originalName: 
-    pivot: {x: -0.574074, y: -0.10810811}
+    pivot: {x: -0.574074, y: -0.111111104}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -129,7 +129,7 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 54
-      height: 37
+      height: 36
     spriteID: 1025687bbe01ab7408d2d31485fc47a2
     spriteBone: []
     spriteOutline: []
@@ -154,7 +154,7 @@ ScriptedImporter:
         x: 131
         y: 4
         width: 54
-        height: 37
+        height: 36
       spriteId: 1025687bbe01ab7408d2d31485fc47a2
     linkedCells: []
     parentIndex: -1
