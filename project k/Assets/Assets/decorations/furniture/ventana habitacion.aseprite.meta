@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5d20bd9275a2b09439268cbebf1915d0
+guid: f8a38129b44ad7749980eb2cbc8573c7
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -95,7 +95,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638675249964939353
+  platformSettingsDirtyTick: 638675250189216473
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -119,18 +119,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: desk and chair
+  - name: ventana habitacion
     originalName: 
-    pivot: {x: 1.3548387, y: -0.16}
+    pivot: {x: 0.48000002, y: -0.3478261}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 31
-      height: 25
-    spriteID: b9def4579e8952b4d86daeb4e680390d
+      width: 25
+      height: 23
+    spriteID: edc3056d10900fa448f396f34bb47265
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -142,20 +142,20 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -909780425
-    name: desk and chair
+    guid: 1135995159
+    name: ventana habitacion
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: desk and chair
+    - name: ventana habitacion
       frameIndex: 0
       cellRect:
-        x: 58
-        y: 4
-        width: 31
-        height: 25
-      spriteId: b9def4579e8952b4d86daeb4e680390d
+        x: 8
+        y: 8
+        width: 25
+        height: 23
+      spriteId: edc3056d10900fa448f396f34bb47265
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -221,4 +221,4 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 200, y: 100}
+  canvasSize: {x: 40, y: 40}
